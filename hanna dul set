@@ -1,0 +1,92 @@
+
+### HTML (index.html)
+html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرفی کتاب</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazir&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>کتاب‌فروشی</h1>
+        <div class="nav-links">
+            <a href="#">خانه</a>
+            <a href="#">درباره ما</a>
+            <a href="#">تماس با ما</a>
+            <a href="registration.html">ثبت نام</a>
+        </div>
+    </div>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="جستجو برای کتاب‌ها...">
+        <button class="search-button"><img src="https://img.icons8.com/material-outlined/24/ffffff/search.png" alt="Search"></button>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h2>دسته‌بندی‌ها</h2>
+            <ul>
+                <li><a href="#">داستان</a></li>
+                <li><a href="#">غیر داستانی</a></li>
+                <li><a href="#">علمی</a></li>
+                <li><a href="#">تاریخ</a></li>
+                <li><a href="#">زندگی‌نامه</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h2>عنوان کتاب: ماجراجویی بزرگ</h2>
+            <div class="book-info">
+                <img src="https://via.placeholder.com/150" alt="Book Cover">
+                <div class="book-details">
+                    <h3>درباره کتاب</h3>
+                    <p>این کتاب شما را به یک سفر شگفت‌انگیز در دنیای تخیل و واقعیت می‌برد. یک کتاب ضروری برای عاشقان ماجراجویی!</p>
+                    <h3>نویسنده: جان دو</h3>
+                    <h3>قیمت: 500,000 تومان</h3>
+                </div>
+            </div>
+            <h3>نظرات</h3>
+            <div class="reviews">
+                <div class="review">
+                    <p>"یک خواندنی فوق‌العاده! نتوانستم آن را زمین بگذارم." - ★★★★★</p>
+                </div>
+                <div class="review">
+                    <p>"ماجرایی هیجان‌انگیز که مرا در لبه صندلی‌ام نگه داشت." - ★★★★☆</p>
+                </div>
+                <div class="review">
+                    <p>"به خوبی نوشته شده و جذاب. به شدت توصیه می‌شود!" - ★★★★★</p>
+                </div>
+            </div>
+            <button onclick="window.location.href='registration.html'">ثبت نام</button>
+        </div>
+    </div>
+    <div class="long-section">
+        <h2>بیشتر درباره کتاب</h2>
+        <p>این کتاب به شما کمک می‌کند تا مهارت‌های خود را در زمینه‌های مختلف بهبود ببخشید و به موفقیت‌های بیشتری دست یابید. با داستان‌های جذاب و آموزنده، این کتاب می‌تواند الهام‌بخش شما باشد.</p>
+        <p>خواندن این کتاب به شما کمک می‌کند تا دیدگاه‌های جدیدی پیدا کنید و به درک بهتری از زندگی و چالش‌های آن برسید.</p>
+        <p>این کتاب برای همه سنین مناسب است و می‌تواند به عنوان یک هدیه عالی برای دوستان و خانواده شما باشد.</p>
+    </div>
+</body>
+</html>
+
+
+### HTML (registration.html)
+`html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazir&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>ثبت نام</h1>
+    </div>
+    <div class="registration-container">
+        <form>
+            <label for="firstName">نام:</label>
+            <input type="text" id="firstName" required>
