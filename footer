@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پاورقی</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- محتوای صفحه شما -->
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>درباره ما</h3>
+                <p>ما یه تیم متخصص هستیم که تلاش می‌کنیم بهترین خدمات رو به مشتریان ارائه بدیم.</p>
+            </div>
+            <div class="footer-section">
+                <h3>تماس با ما</h3>
+                <p>آدرس: خیابان اصلی، شهر مرکزی</p>
+                <p>تلفن: ۱۲۳-۴۵۶-۷۸۹۰</p>
+                <p>ایمیل: info@example.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>لینک‌های سریع</h3>
+                <ul>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#">خدمات</a></li>
+                    <li><a href="#">محصولات</a></li>
+                    <li><a href="#">تماس</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; ۲۰۲۴ همه حقوق محفوظ است.</p>
+        </div>
+    </footer>
+</body>
+</html>
