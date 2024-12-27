@@ -1,0 +1,35 @@
+<div class="search-container">
+    <input type="text" class="search-bar" placeholder="جستجو کنید...">
+    <button class="search-button">جستجو</button>
+</div>
+.
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #ff6347;
+}
